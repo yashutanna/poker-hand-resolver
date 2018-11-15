@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad09073-fecc-4dd6-95ab-4758ede04023" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/Hand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/PokerHand.java" />
       <change beforePath="$PROJECT_DIR$/.idea/poker.iml" afterPath="$PROJECT_DIR$/.idea/poker.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,41 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TwoPairHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeOfAKindHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StraightHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FlushHand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -73,29 +40,22 @@
       <file leaf-file-name="FullHouseHand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourOfAKindHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java">
+      <file leaf-file-name="HighCardHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StraightFlushHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="30">
+              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,30 +64,68 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
+              <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PokerHand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/PokerHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnePairHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
               <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="StraightFlushHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java">
+      <file leaf-file-name="StraightHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeOfAKindHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoPairHand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,19 +161,21 @@
         <option value="$PROJECT_DIR$/src/test/java/HandResolver.java" />
         <option value="$PROJECT_DIR$/src/test/java/HandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/java/za/co/pokerHands/HandTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/Hand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HandHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/za/co/pokerHands/PokerHand.java" />
       </list>
     </option>
   </component>
@@ -415,6 +415,12 @@
     <history-entry file="All_in_poker - 2018.11.15 at 22h 44m 07s.xml">
       <configuration name="All in poker" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_poker - 2018.11.15 at 22h 45m 10s.xml">
+      <configuration name="All in poker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_poker - 2018.11.15 at 22h 48m 49s.xml">
+      <configuration name="All in poker" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -469,81 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -552,15 +483,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/HandHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FourOfAKindHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FlushHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/FullHouseHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/HighCardHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/OnePairHand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
@@ -568,13 +552,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/pokerHands/HandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/RoyalFlushHand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightFlushHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/StraightHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/ThreeOfAKindHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/TwoPairHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/za/co/pokerHands/PokerHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

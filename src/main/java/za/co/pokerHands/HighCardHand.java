@@ -1,6 +1,6 @@
 package za.co.pokerHands;
 
-public class HighCardHand implements Hand{
+public class HighCardHand extends PokerHand {
     public String print() {
         return "High Card";
     }

@@ -1,6 +1,6 @@
 package za.co.pokerHands;
 
-public class StraightHand implements Hand{
+public class StraightHand extends PokerHand {
     public String print() {
         return "Straight";
     }
