@@ -1,7 +1,8 @@
-package za.co.pokerHands;
+package za.co.poker.hands;
 
 import org.junit.Assert;
 import org.junit.Test;
+import za.co.poker.hands.*;
 
 public class HandTest {
 

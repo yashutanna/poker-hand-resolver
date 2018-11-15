@@ -1,4 +1,4 @@
-package za.co.pokerHands;
+package za.co.poker.hands;
 
 public class FourOfAKindHand extends PokerHand {
     public String print() {
