@@ -48,22 +48,22 @@ public class HandTest {
         Assert.assertEquals("Flush", handType);
     }
     @Test
-    public void StraighFlush(){
+    public void StraightFlush(){
         Hand hand = new StraightFlushHand();
         String handType = hand.print();
         Assert.assertEquals("Straight Flush", handType);
-    }
-    @Test
-    public void FourOfAKind(){
-        Hand hand = new FourOfAKindHand();
-        String handType = hand.print();
-        Assert.assertEquals("Four Of A Kind", handType);
     }
     @Test
     public void FullHouse(){
         Hand hand = new FullHouseHand();
         String handType = hand.print();
         Assert.assertEquals("Full House", handType);
+    }
+    @Test
+    public void FourOfAKind(){
+        Hand hand = new FourOfAKindHand();
+        String handType = hand.print();
+        Assert.assertEquals("Four Of A Kind", handType);
     }
     @Test
     public void RoyalFlush(){
