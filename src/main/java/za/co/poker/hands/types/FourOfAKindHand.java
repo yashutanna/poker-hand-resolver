@@ -1,8 +1,20 @@
 package za.co.poker.hands.types;
 
-import za.co.poker.hands.DealtPokerHand;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import za.co.poker.hands.PokerHand;
 
-public class FourOfAKindHand extends DealtPokerHand {
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class FourOfAKindHand extends PokerHand {
+    public FourOfAKindHand(PokerHand hand) {
+        super(hand);
+    }
+
+    public FourOfAKindHand() {
+        super();
+    }
+
     public String print() {
         return "Four Of A Kind";
     }

@@ -1,8 +1,20 @@
 package za.co.poker.hands.types;
 
-import za.co.poker.hands.DealtPokerHand;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import za.co.poker.hands.PokerHand;
 
-public class RoyalFlushHand extends DealtPokerHand {
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class RoyalFlushHand extends PokerHand {
+    public RoyalFlushHand(PokerHand hand) {
+        super(hand);
+    }
+
+    public RoyalFlushHand() {
+        super();
+    }
+
     public String print() {
         return "Royal Flush";
     }

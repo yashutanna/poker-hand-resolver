@@ -1,13 +1,29 @@
 package za.co.poker.dealer;
 
+import za.co.poker.hands.Card;
 import za.co.poker.hands.PokerHand;
 import za.co.poker.hands.Suit;
+import za.co.poker.hands.types.*;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Judge {
+    public PokerHand deal(String cardsString) throws Exception {
+        String[] cardTokens = cardsString.split(",");
+        PokerHand PokerHand = new PokerHand();
+        List<Card> cards = Arrays.stream(cardTokens).map(card -> {
+            try {
+                return new Card(card);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return null;
+            }
+        }).collect(Collectors.toList());
+        PokerHand.setCards(cards);
+        return PokerHand;
+    }
+
     public HashMap<Integer, Integer> countCards(PokerHand hand){
         HashMap<Integer, Integer> cardCounts = new HashMap<>();
 
@@ -95,32 +111,54 @@ public class Judge {
         return hasSequentialCards(hand) && !hasAllSameSuit(hand);
     }
 
+    public boolean hasFlush(PokerHand hand) {
+        return hasAllSameSuit(hand);
+    }
+
     public boolean hasStraightFlush(PokerHand hand) {
         return hasSequentialCards(hand) && hasAllSameSuit(hand);
     }
 
     public boolean hasRoyalFlush(PokerHand hand) {
         boolean lastCardIsKing = hand.getCardValues().get(hand.getCardValues().size() - 1) == 13;
-
         return hasSequentialCards(hand) && hasAllSameSuit(hand) && lastCardIsKing;
     }
 
     public boolean hasThreeOfAKind(PokerHand hand) {
-        return has3cardsOfSameValue(hand) && !has2cardsOfSameValue(hand);
+        return has3cardsOfSameValue(hand);
     }
 
+    public boolean hasTwoPair(PokerHand hand) {
+        HashMap<Integer, Integer> countedCards = countCards(hand);
+        return countedCards.values().stream().filter(count -> count == 2).count() == 2;
+    }
     public boolean hasOnePair(PokerHand hand) {
         return has2cardsOfSameValue(hand);
     }
 
-//    public PokerHand assessHand(PokerHand hand){
-//        if(hasRoyalFlush(hand)){
-//            return (RoyalFlushHand) hand;
-//        }
-//        else if(has4cardsOfSameValue(hand)){
-//            return (FourOfAKindHand) hand;
-//        }
-//    }
+    public PokerHand assessHand(PokerHand hand) {
+        if (hasRoyalFlush(hand)) {
+            return new RoyalFlushHand(hand);
+        } else if (hasStraightFlush(hand)) {
+            return new StraightFlushHand(hand);
+        } else if (has4cardsOfSameValue(hand)) {
+            return new FourOfAKindHand(hand);
+        } else if (hasFullHouse(hand)) {
+            return new FullHouseHand(hand);
+        } else if (hasFlush(hand)) {
+            return new FlushHand(hand);
+        } else if (hasStraight(hand)) {
+            return new StraightHand(hand);
+        } else if (hasThreeOfAKind(hand)) {
+            return new ThreeOfAKindHand(hand);
+        } else if (hasTwoPair(hand)) {
+            return new TwoPairHand(hand);
+        } else if (hasOnePair(hand)) {
+            return new OnePairHand(hand);
+        } else {
+            return new HighCardHand(hand);
+        }
+    }
 
 
 }

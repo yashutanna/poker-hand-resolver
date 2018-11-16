@@ -1,8 +1,20 @@
 package za.co.poker.hands.types;
 
-import za.co.poker.hands.DealtPokerHand;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import za.co.poker.hands.PokerHand;
 
-public class StraightHand extends DealtPokerHand {
+@EqualsAndHashCode(callSuper = true)
+@Data
+public class StraightHand extends PokerHand {
+    public StraightHand(PokerHand hand) {
+        super(hand);
+    }
+
+    public StraightHand() {
+        super();
+    }
+
     public String print() {
         return "Straight";
     }

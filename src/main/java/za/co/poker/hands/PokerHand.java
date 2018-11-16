@@ -6,8 +6,16 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Data
-public abstract class PokerHand implements Hand {
-    List<Card> cards = new LinkedList<>();
+public class PokerHand implements Hand {
+    List<Card> cards;
+
+    public PokerHand(PokerHand hand) {
+        this.cards = hand.getCards();
+    }
+
+    public PokerHand() {
+        this.cards = new LinkedList<>();
+    }
 
     public List<Integer> getCardValues(){
         return cards.stream()
@@ -30,7 +38,6 @@ public abstract class PokerHand implements Hand {
         this.cards = cards;
     }
 
-    @Override
     public String print() {
         return "Undetermined poker hand";
     }
