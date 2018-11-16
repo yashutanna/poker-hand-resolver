@@ -75,10 +75,9 @@ public class HandTest {
 
     @Test
     public void testSortedHand() throws Exception {
-        PokerHand hand = new OnePairHand();
+        PokerHand hand = new DealtPokerHand();
         Card[] cards = new Card[]{new Card("3C"), new Card("3H"), new Card("2C"), new Card("AH"), new Card("KS")};
         hand.setCards(Arrays.asList(cards));
-        hand.sort();
 
         List<Integer> sortedHand =
                 hand.getCards().stream()
@@ -95,7 +94,7 @@ public class HandTest {
         expectedEx.expect(Exception.class);
         expectedEx.expectMessage("invalid, non-unique cards specified");
 
-        PokerHand hand = new OnePairHand();
+        PokerHand hand = new DealtPokerHand();
         Card[] cards = new Card[]{new Card("3C"), new Card("3C"), new Card("2C"), new Card("AH"), new Card("KS")};
         hand.setCards(Arrays.asList(cards));
     }

@@ -1,8 +1,8 @@
 package za.co.poker.hands.types;
 
-import za.co.poker.hands.PokerHand;
+import za.co.poker.hands.DealtPokerHand;
 
-public class StraightHand extends PokerHand {
+public class StraightHand extends DealtPokerHand {
     public String print() {
         return "Straight";
     }

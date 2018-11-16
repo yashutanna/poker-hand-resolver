@@ -9,13 +9,15 @@ import java.util.stream.Collectors;
 public abstract class PokerHand implements Hand {
     List<Card> cards = new LinkedList<>();
 
-    public void sort(){
-        cards.sort(Comparator.comparing(Card::getValue));
-    }
-
     public List<Integer> getCardValues(){
         return cards.stream()
                 .map(Card::getValue)
+                .collect(Collectors.toList());
+    }
+
+    public List<Suit> getCardSuits() {
+        return cards.stream()
+                .map(Card::getSuit)
                 .collect(Collectors.toList());
     }
 
@@ -24,6 +26,12 @@ public abstract class PokerHand implements Hand {
         if(unique.size() != 5){
             throw new Exception("invalid, non-unique cards specified");
         }
+        cards.sort(Comparator.comparing(Card::getValue));
         this.cards = cards;
+    }
+
+    @Override
+    public String print() {
+        return "Undetermined poker hand";
     }
 }
