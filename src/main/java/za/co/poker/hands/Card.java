@@ -11,11 +11,16 @@ public class Card {
         this.suit = Suit.fromValue(cardValue.substring(cardValue.length() - 1, cardValue.length()).toUpperCase());
         this.setValue(cardValue.substring(0, cardValue.length() - 1));
     }
-    public Card() {
+
+    Card() {
     }
 
     public void setValue(String valueString) throws Exception {
         try {
+            Integer value = Integer.parseInt(valueString);
+            if (value > 10) {
+                throw new Exception("Invalid card value");
+            }
             this.value = Integer.parseInt(valueString);
         } catch (NumberFormatException e){
             switch (valueString){

@@ -10,7 +10,10 @@ public class Application {
     public static void main(String[] args) {
         List<String> hands = Arrays.asList(
             "3C,3H,3S,2C,2S",
-            "3C,3H,3S,3D,2S"
+                "3C,3H,3S,3D,2S",
+                "AH,KH,QH,Jh,10H",
+                "AH,KH,QH,Jh,10C",
+                "AH,KH,QH,Jh,8H"
         );
 
         Judge judge = new Judge();
