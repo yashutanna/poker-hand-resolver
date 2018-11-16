@@ -7,6 +7,13 @@ public class Card {
     int value;
     Suit suit;
 
+    Card(String cardValue) throws Exception {
+        this.suit = Suit.fromValue(cardValue.substring(cardValue.length() - 1, cardValue.length()).toUpperCase());
+        this.setValue(cardValue.substring(0, cardValue.length() - 1));
+    }
+    Card() {
+    }
+
     public void setValue(String valueString) throws Exception {
         try {
             this.value = Integer.parseInt(valueString);
