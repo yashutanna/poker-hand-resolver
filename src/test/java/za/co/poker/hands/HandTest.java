@@ -1,7 +1,9 @@
 package za.co.poker.hands;
 
 import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 import za.co.poker.hands.*;
 
 import java.lang.reflect.Array;
@@ -84,5 +86,18 @@ public class HandTest {
                         .map(Card::getValue)
                         .collect(Collectors.toList());
         Assert.assertEquals(Arrays.asList(new Integer[]{0,2,3,3,13}).toString(), sortedHand.toString());
+    }
+
+    @Rule
+    public ExpectedException expectedEx = ExpectedException.none();
+
+    @Test
+    public void testIllegalHand() throws Exception {
+        expectedEx.expect(Exception.class);
+        expectedEx.expectMessage("invalid, non-unique cards specified");
+
+        PokerHand hand = new OnePairHand();
+        Card[] cards = new Card[]{new Card("3C"), new Card("3C"), new Card("2C"), new Card("AH"), new Card("KS")};
+        hand.setCards(Arrays.asList(cards));
     }
 }
