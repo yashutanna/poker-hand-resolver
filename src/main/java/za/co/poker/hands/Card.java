@@ -2,8 +2,6 @@ package za.co.poker.hands;
 
 import lombok.Data;
 
-import java.util.Objects;
-
 @Data
 public class Card {
     int value;

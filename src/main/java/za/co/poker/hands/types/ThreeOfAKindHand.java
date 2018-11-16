@@ -1,4 +1,6 @@
-package za.co.poker.hands;
+package za.co.poker.hands.types;
+
+import za.co.poker.hands.PokerHand;
 
 public class ThreeOfAKindHand extends PokerHand {
     public String print() {

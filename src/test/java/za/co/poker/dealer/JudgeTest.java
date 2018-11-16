@@ -3,7 +3,7 @@ package za.co.poker.dealer;
 import org.junit.Assert;
 import org.junit.Test;
 import za.co.poker.hands.Card;
-import za.co.poker.hands.OnePairHand;
+import za.co.poker.hands.types.OnePairHand;
 import za.co.poker.hands.PokerHand;
 
 import java.util.Arrays;
